@@ -18,6 +18,7 @@ function [] = SFC2HDF5(FilePath,RunNumber,OutputFileName)
 %  group2hdf5(branchID,GroupName)
 %  PerCycleData2hdf5(RootID,Data,NameOfSubGroub,HDF5FieldNames,DataFieldNames,ColumnNames)
 
+%%
 %% Check input arguments
 if nargin<3
     error('SFC2HDF5: not enough input arguments')
